@@ -1,0 +1,130 @@
+.header-uk{
+    height: 80px;
+    background-image: linear-gradient(blue,yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700px;
+    letter-spacing: 5px;
+    color: white;
+}
+.fleg-uk{
+    height: calc(100vh - 80px);
+    background-image: linear-gradient(blue 0%, blue 50%, yellow 50%, yellow 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 250px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: blue;
+    -webkit-text-stroke: 4px yellow;
+}
+.header-italy{
+    height: 80px;
+    background-image: linear-gradient(green , white , red);
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    text-transform: uppercase;
+    color: green;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+.fleg-italy{
+    height: calc(100vh - 80px);
+    background-image: linear-gradient(90deg, green 0%, green 33%, white 33%, white 66%, red 66%, red 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 250px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: green;
+    -webkit-text-stroke: 4px black;
+}
+.header-spain{
+    height: 80px;
+    background-image: linear-gradient(red, yellow, red);
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+.fleg-spain{
+    height: calc(100vh - 80px);
+    background-image: linear-gradient(red 0%, red 25%, yellow 25%, yellow 75%, red 75%, red 100%);
+    position: relative;
+}
+/* .img{
+    position: absolute;
+    left:  ;
+    width: ;
+    bottom: ;
+} */
+.header-nigeria{
+    height: 80px;
+    background-image: linear-gradient(green , white , green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    -webkit-text-stroke: 4px green;
+}
+.fleg-nigeria{
+    height: calc(100vh - 80px);
+    background-image: linear-gradient(90deg, green 0%, green 33%, white 33%, white 66%, green 66%, green 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 250px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: green;
+    -webkit-text-stroke: 4px black;
+}
+.header-chehia{
+    height: 80px;
+    background-image: linear-gradient(white , red , blue );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    -webkit-text-stroke: 4px black;
+}
+.fleg-shehia{
+    height: calc(100vh - 80px);
+    background-image: linear-gradient(white 0% , white 50% , red 50% , red 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 250px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: green;
+    -webkit-text-stroke: 4px black;
+    position: relative;
+}
+.treygolnik{
+    border-left: 375px solid blue;
+    border-top: 325px solid transparent;
+    border-bottom: 325px solid transparent;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: -2px;
+}
